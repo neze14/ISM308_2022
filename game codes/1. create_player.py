@@ -9,7 +9,7 @@ RED = (255,0,0)  #colour= (R, G, B)
 player_pos = [400,300]
 player_size = 50
 
-screen = pygame.display.set_mode((WIDTH,HEIGHT)) #draws the screen using the preset with and height
+screen = pygame.display.set_mode((WIDTH,HEIGHT)) #draws the screen using the preset width and height
 
 not_game_over = True #preset for the while loop
 

@@ -29,7 +29,7 @@ def detect_collision(player_pos, enemy_pos):
     p_y = player_pos[1]
     e_x = enemy_pos[0]
     e_y = enemy_pos[1]
-    if (e_y + enemy_size) > 200:
+    if (e_y + enemy_size) > 500:
         if (e_x + enemy_size) < p_x  or (e_x > p_x + player_size):
             return False
         else:
